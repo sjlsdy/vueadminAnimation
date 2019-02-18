@@ -1,21 +1,9 @@
-# adminui
+# 在基于Vue开发的管理系统中制作动画
 
-> A Vue.js project
+## 为什么做这套东西……
+之前使用Vue开发了许多管理系统，因为Vue并不操作DOM的原因，所以在之前的系统开发中，也并没有使用过多的动画。但是有动画效果的系统，不仅博人眼球，更能清晰的表达交互逻辑。所以动画比想像中的更加重要。
 
-## Build Setup
+## 1.任务卡片转场
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+比如看板中有很多待分配事项，同时我们有很多执行人，当为其中一项待办任务分配执行人的时候，我们希望做出一个当前任务飞入被分配执行人的任务列表中。
